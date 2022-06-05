@@ -1,6 +1,6 @@
 const Footer = () => {
-  /*template*/
-  return `
+    /*template*/
+    return `
          <footer>
            <p>
              Made with Tango.JS, by
@@ -26,5 +26,4 @@ const Footer = () => {
          </footer>
  `;
 };
-
 export default Footer;
