@@ -5,7 +5,7 @@ const Navbar = () => {
      <nav class='nav'>
       <ul class='navbar'>
         <li class='logo'><a href="#">Tango-JS</a></li>
-        <li><a href="about.html">source code</a></li>
+        <li><a href="https://github.com/maxrpark/tango-app" target='__blank'>source code</a></li>
       </ul>
     </nav>
  `;

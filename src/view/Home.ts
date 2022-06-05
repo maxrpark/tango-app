@@ -1,6 +1,6 @@
 import { TangoStyled } from '../tango/index.js';
 import { Hero, Card } from '../components/index.js';
-import { cardsData } from '../../data/cardsData.js';
+import { cardsData } from '../data/cardsData.js';
 import { CardInterface } from '../ts/interfaces';
 import { HeroInterface } from '../ts/interfaces';
 
