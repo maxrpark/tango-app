@@ -3,7 +3,7 @@ const Footer = () => {
     return `
          <footer>
            <p>
-             Made with React, by
+             Made with Tango.JS, by
              <a
                target='_blank'
                rel='noreferrer'
@@ -14,7 +14,7 @@ const Footer = () => {
              ${new Date().getFullYear()}
            </p>
            <p>
-             Visit my other projects
+             Check my other projects
              <a
                target='_blank'
                rel='noreferrer'

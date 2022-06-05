@@ -28,7 +28,7 @@ const styles = [
    border-radius: 5px;
    background: var(--main-dark-color-2);
    color:var(--main-color);
-
+   text-align:center;
 }`,
   /*css*/
   `
@@ -39,7 +39,6 @@ const styles = [
   /*css*/
   `
  .card h3 {
- text-align:center;
  padding: var(--padding-1);
 }
 

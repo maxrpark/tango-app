@@ -2,27 +2,27 @@ import { TangoStyled } from '../tango/index.js';
 import { Hero, Card } from '../components/index.js';
 import { cardsData } from '../data/cardsData.js';
 const Home = () => {
-    const heroInfo = {
-        title: 'Hellow World',
-        subtitle: 'First tango app',
-    };
-    /*template*/
-    return `
+  const heroInfo = {
+    title: 'Hellow World',
+    subtitle: 'First tango app',
+  };
+  /*template*/
+  return `
     <div class='content-section'>
     ${Hero(heroInfo)}
       <div class='card-container'>
     ${cardsData
-        .map((item) => {
+      .map((item) => {
         return Card(item);
-    })
-        .join('')}
+      })
+      .join('')}
       </div>
     </div>
  `;
 };
 // STYLES
 const styles = [
-    /*css*/ `
+  /*css*/ `
 .card-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
